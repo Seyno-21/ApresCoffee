@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApresCoffeeV4.Views.hotDrinksPage"
+             Title="Hot Drinks">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#CFB091">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="CaramelMacchiato.png" WidthRequest="100"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Caramel Machhiato" TextColor="#231F20" FontSize="20" Margin="0,40,0,0"/>
+                    <Label Text="$4.50" TextColor="#5e5e5e" FontSize="16" Margin="10,0,0,0" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Mocha.png" WidthRequest="100"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="White Chocolate Mocha" TextColor="#231F20" FontSize="20" Margin="0,40,0,0"/>
+                    <Label Text="$4.50" TextColor="#5e5e5e" FontSize="16" Margin="10,0,0,0" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="HotChocolate.png" WidthRequest="100"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Hot Chocolate" TextColor="#231F20" FontSize="20" Margin="0,40,0,0"/>
+                    <Label Text="$4.50" TextColor="#5e5e5e" FontSize="16" Margin="10,0,0,0" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="IrishCoffee.png" WidthRequest="100"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Irish Coffee" TextColor="#231F20" FontSize="20" Margin="0,40,0,0"/>
+                    <Label Text="$4.50" TextColor="#5e5e5e" FontSize="16" Margin="10,0,0,0" />
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

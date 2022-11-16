@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApresCoffeeV4.Views.foodPage"
+             Title="Quick Bites">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#CFB091">
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Bagel.png" WidthRequest="100"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Bagel" TextColor="#231F20" FontSize="20" Margin="0,40,0,0"/>
+                    <Label Text="$3.00" TextColor="#5e5e5e" FontSize="16" Margin="10,0,0,0" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="PaniniEggsBennedict.png" WidthRequest="100"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Eggs Bennedict Panini" TextColor="#231F20" FontSize="20" Margin="0,40,0,0"/>
+                    <Label Text="$5.00" TextColor="#5e5e5e" FontSize="16" Margin="10,0,0,0" />
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

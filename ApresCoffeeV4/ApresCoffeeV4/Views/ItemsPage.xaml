@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApresCoffeeV4.Views.ItemsPage"
+             Title="About"
+             xmlns:local="clr-namespace:ApresCoffeeV4.ViewModels"  
+             xmlns:model="clr-namespace:ApresCoffeeV4.Models"  
+             x:Name="BrowseItemsPage">
+
+    <StackLayout BackgroundColor="#CFB091">
+        
+        <Image Source="content.jfif"/>
+        <Label 
+            Text="About Us"
+            FontSize="30"
+            Margin="10,0,0,10"
+            FontAttributes="Bold"
+            TextColor="#231F20"/>
+
+        <Label
+            Text="Aprés Coffee is a modern cafe on Ayr street in Ohakune which is situated at the bottom of Mt Ruapehu. The point of Aprés Coffee is to give people energy after their day of Skiing/Snowboarding."
+            Margin="10,0,0,10"
+            FontSize="15"
+            TextColor="#231F20"/>
+
+        <Label
+            Text=""
+            TextColor="#231F20"
+            FontSize="20"
+            FontAttributes="Bold"/>
+
+        <Label
+            Text="Contact Info:"
+            TextColor="#231F20"
+            FontSize="20"
+            Margin="10,0,0,0"
+            FontAttributes="Bold"/>
+
+        <Label
+            Text="Phone: 094115374"
+            TextColor="#231F20"
+            FontSize="15"
+            Margin="10,0,0,0"
+            FontAttributes="Bold"/>
+
+        <Label
+            Text="Email: aprescoffee@gmail.com"
+            TextColor="#231F20"
+            FontSize="15"
+            Margin="10,0,0,0"
+            FontAttributes="Bold"/>
+
+        <Label
+            Text=""
+            FontSize="15"/>
+        <Label
+            Text=""
+            FontSize="15"/>
+        <Label
+            Text=""
+            FontSize="15"/>
+
+        <StackLayout Orientation="Horizontal">
+            
+            <ImageButton BackgroundColor="#CFB091"
+            Source="iconinsta.png"
+                         WidthRequest="90"
+                         Margin="10,0,0,0"
+            Clicked="ImageButton_Clicked"/>
+
+            <ImageButton BackgroundColor="#CFB091"
+            Source="iconfb.png"
+                         WidthRequest="90"
+            Clicked="ImageButton_Clicked_1"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

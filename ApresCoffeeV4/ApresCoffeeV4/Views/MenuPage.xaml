@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApresCoffeeV4.Views.AboutPage"
+             xmlns:vm="clr-namespace:ApresCoffeeV4.ViewModels"
+             Title="Menu">
+
+    <StackLayout BackgroundColor="#CFB091">
+
+        <!-- Logo -->
+        <Image Source="apresCoffee.png" HeightRequest="335" Margin="0,30,0,0"/>
+
+        <!-- Buttons -->
+
+        <!-- Espresso Button -->
+        <Button
+            HeightRequest="75" 
+            Margin="10,0,10,0" 
+            BackgroundColor="#231F20" 
+            Text="Espresso" TextColor="#CFB091"
+            FontSize="20" FontAttributes="Bold"
+            x:Name="espressoPage"
+           Clicked="espressoPage_Clicked"
+        />
+
+        <!-- Hot Drinks -->
+        <Button 
+            HeightRequest="75" 
+            Margin="10,0,10,0" 
+            BackgroundColor="#231F20"
+            Text="Hot Drinks" TextColor="#CFB091"
+            FontSize="20" FontAttributes="Bold"
+            x:Name="hotDrinksPage"
+            Clicked="hotDrinksPage_Clicked"
+        />
+
+        <!-- Cold Drinks -->
+        <Button 
+            HeightRequest="75" 
+            Margin="10,0,10,0" 
+            BackgroundColor="#231F20"
+            Text="Cold Drinks" TextColor="#CFB091"
+            FontSize="20" FontAttributes="Bold"
+            x:Name="coldDrinksPage"
+            Clicked="coldDrinksPage_Clicked"
+        />
+
+        <!-- Quick Bites -->
+        <Button 
+            HeightRequest="75"
+            Margin="10,0,10,0"
+            BackgroundColor="#231F20"
+            Text="Quick Bites" TextColor="#CFB091"
+            FontSize="20" FontAttributes="Bold"
+            x:Name="quickBitesPage"
+            Clicked="quickBitesPage_Clicked"
+        />
+
+    </StackLayout>
+</ContentPage>
+
